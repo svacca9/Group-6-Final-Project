@@ -1,1 +1,217 @@
-/*style.css*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #111531;
+    font-family: 'Roboto', sans-serif;
+    color: #a2ded0;
+    margin: 2%;
+}
+
+nav {
+    width: 100%;
+    margin: 0;
+    font-size: 1.6em;
+    background-color: #05070C;
+}
+
+.logo {
+    margin: 0px 400px 0px 0px;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.menu-links {
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.menu-links li:hover {
+    background-color: #1f273b;
+    color: #a2ded0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #a2ded0;
+}
+
+nav li {
+    list-style: none;
+    padding: 25px 25px;
+    transition-property: background-color;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    background-color: #05070C;
+    border-radius: 0px 0px 4px 4px;
+    font-size: 0.72em;
+    text-align: center;
+    left: 0px;
+    top: 100%;
+    border: none;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+    z-index: 2;
+}
+
+.dropdown-content li {
+    padding: 10px;
+    border-bottom: none;
+    border-radius: inherit;
+    z-index: inherit;
+}
+
+.dropdown-content li:hover {
+    background-color: #1f273b;   
+}
+
+.dropdown:hover .dropdown-content {
+    opacity: 100;
+}
+article 
+{
+    clear: both; 
+    overflow: auto; 
+    width: 100%; 
+
+}
+
+hgroup {
+    margin-top: 40px;
+    clear: both; overflow: auto; width: 100%;
+    position: relative; display: inline;
+
+}
+
+
+figure {
+    float: left;
+    width: 200px; 
+    height: 200px; 
+    padding: 5px; 
+    margin: 20px;
+}
+
+.testimonial-card {
+    background-color: #1f273b;
+    border-radius: 30px;
+    padding: 20px;
+    width: 200px;
+    margin: 10px;
+    display:inline-block;
+    margin-left: 200px;
+    margin-bottom:100px;
+}
+
+
+footer {
+    width: 100%;
+    margin: 0;
+    font-size: 1.3em;
+    background-color: #05070C;
+    color: #a2ded0;
+}
+
+.footer-links {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.footer-links a:hover {
+    position: static;
+    padding: 0px;
+}
+
+.fa {
+    color: #a2ded0;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer li {
+    list-style: none;
+    padding: 20px 20px;
+    transition-property: background-color;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+}
+
+button {
+    margin: 25px;
+    margin-top: 0;
+}
+
+#product_main {margin-right: 15%; padding-top: 20%; padding-left: 10%; padding-right:10%; border: 3px solid black; height: 1000px; width: 100%; display:grid; grid-template-columns: 25% 25% 25% 25%; grid-template-rows: 75% 75% 75% 75%; flex: right; text-align: center;}
+
+
+#dropbtn {font-family: 'Roboto', sans-serif;
+    color: #a2ded0; height: 4em; width: 8em;font-size: 1.2em; background-color: #111531;}
+
+
+.dropdown-Content .txt1-hov {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  #product1:hover{
+    position: relative;
+    display: inline-block; background-color: black; 
+  }
+
+  #product2:hover{
+    position: relative;
+    display: inline-block; background-color: black; 
+  }
+
+  #product3:hover{
+    position: relative;
+    display: inline-block; background-color: black; 
+  }
+
+  #product4:hover{
+    position: relative;
+    display: inline-block; background-color: black; 
+  }
+
+#dropbtn:hover .dropdown-Content {display: block; }
+
+a:hover {color: purple;}
+
+    #dropbtn {
+        background-color:#1f273b;
+        color: #a2ded0;
+        font-size: 16px;
+        border: none;
+      }
+
+
