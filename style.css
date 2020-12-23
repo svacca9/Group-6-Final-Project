@@ -89,12 +89,11 @@ nav li {
 .dropdown:hover .dropdown-content {
     opacity: 100;
 }
-article 
-{
+
+article {
     clear: both; 
     overflow: auto; 
     width: 100%; 
-
 }
 
 hgroup {
@@ -103,7 +102,6 @@ hgroup {
     position: relative; display: inline;
 
 }
-
 
 figure {
     float: left;
